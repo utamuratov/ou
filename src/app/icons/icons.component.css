@@ -1,0 +1,11 @@
+:host {
+  display: block;
+}
+
+.icon:hover path {
+  fill: red;
+}
+
+.my-icon-active:before {
+  color: red;
+}

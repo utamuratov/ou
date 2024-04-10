@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?8tc70o');
+  src:  url('fonts/icomoon.eot?8tc70o#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?8tc70o') format('truetype'),
+    url('fonts/icomoon.woff?8tc70o') format('woff'),
+    url('fonts/icomoon.svg?8tc70o#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="my-icon-"], [class*=" my-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-plus-outline:before {
+  content: "\e905";
+}
+.my-icon-heart:before {
+  content: "\e900";
+  color: #26b560;
+}
+.my-icon-active:before {
+  content: "\e901";
+  color: #fff;
+}
+.my-icon-add-to-cart:before {
+  content: "\e902";
+  color: #fff;
+}
+.my-icon-cart:before {
+  content: "\e903";
+  color: #26b560;
+}
+.my-icon-catalogue:before {
+  content: "\e904";
+  color: #26b560;
+}
+.my-icon-clock:before {
+  content: "\e906";
+  color: #86898c;
+}
+.my-icon-complaint:before {
+  content: "\e907";
+  color: #ff7738;
+}
+.my-icon-copy:before {
+  content: "\e908";
+  color: #86898c;
+}
+.my-icon-flag:before {
+  content: "\e909";
+  color: #86898c;
+}
+.my-icon-grid:before {
+  content: "\e90a";
+  color: #86898c;
+}
+.my-icon-inline:before {
+  content: "\e90b";
+  color: #86898c;
+}
+.my-icon-location:before {
+  content: "\e90c";
+  color: #86898c;
+}
+.my-icon-pen:before {
+  content: "\e910";
+  color: #26b560;
+}
+.my-icon-phone:before {
+  content: "\e911";
+  color: #86898c;
+}
+.my-icon-star:before {
+  content: "\e914";
+  color: #ff7738;
+}
+.my-icon-suitcase:before {
+  content: "\e915";
+  color: #26b560;
+}

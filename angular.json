@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/fonts/icomoon-v1.0/style.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -91,5 +92,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "24aa0035-2ba1-4fe2-bcb9-2acdb6e82311"
   }
 }
