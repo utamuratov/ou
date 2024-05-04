@@ -13,4 +13,11 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./icons/icons.component').then((m) => m.IconsComponent),
   },
+  {
+    path: 'problem',
+    loadComponent: () =>
+      import('./problems/parent/parent.component').then(
+        (m) => m.ParentComponent
+      ),
+  },
 ];
